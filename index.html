@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Momentum App</title>
-</head>
-<body>
-    <main class="wrap">
-        <div class="mid_box">
-            <h2 id="clock"></h2>
-            <form class="hidden" id="login-form">
-                <input required maxlength="15" type="text" placeholder="What is your name?">
-                <input type="submit" value="Log In" class="login_btn">
-            </form>
-            <h1 class="hidden" id="greeting"></h1>
-            <form id="todo-form">
-                <input type="text" placeholder="Write a To Do and Press Enter" required>
-            </form>
-            <ul id="todo-list"></ul>
-        </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Momentum App</title>
+    </head>
+    <body>
+        <main class="wrap">
+            <div class="mid_box">
+                <h2 id="clock"></h2>
+                <form class="hidden" id="login-form">
+                    <input required maxlength="15" type="text" placeholder="What is your name?" />
+                    <input type="submit" value="Log In" class="login_btn" />
+                </form>
+                <h1 class="hidden" id="greeting"></h1>
+                <form id="todo-form">
+                    <input type="text" placeholder="Write a To Do and Press Enter" required />
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
 
-        <div id="quote">
-            <span></span>
-            <span></span>
-        </div>
-        <div id="weather">
-            <span></span>
-            <span></span>
-        </div>
-    </main>
+            <div id="quote">
+                <span></span>
+                <span></span>
+            </div>
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+        </main>
 
-
-    <script src="/Js/app.js"></script>
-    <script src="/Js/clock.js"></script>
-    <script src="/Js/quote.js"></script>
-    <script src="/Js/background.js"></script>
-    <script src="/Js/todo.js"></script>
-    <script src="/Js/weather.js"></script>
-</body>
+        <script src="/Js/app.js"></script>
+        <script src="/Js/clock.js"></script>
+        <script src="/Js/quote.js"></script>
+        <script src="/Js/background.js"></script>
+        <script src="/Js/todo.js"></script>
+        <script src="/Js/weather.js"></script>
+    </body>
 </html>
